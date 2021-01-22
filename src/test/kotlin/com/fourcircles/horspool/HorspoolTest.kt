@@ -16,23 +16,13 @@ class HorspoolTest() {
         assert(returnValue == 5)
 
     }
-
+// Test not hpapy path
     @Test
     fun `not happy path`(){
         val source ="Test Tooth String"
         val pattern = "Molar Teeth"
         var returnValue = horspool.boyerMooreHorspoolSearch(source, pattern)
         println("Not happy Path = $returnValue")
-
-    }
-
-    @Test
-    fun `multiple occurence in source`() {
-        val source = "Test Tooth String. Molar Tooth is growing."
-        val pattern = "Tooth"
-        val returnValue = horspool.boyerMooreHorspoolSearch(source, pattern)
-        println("haoopy " + returnValue)
-        assert(returnValue == 5)
 
     }
 
