@@ -5,7 +5,7 @@ This is a simple example of implementation of the Boyer Moore Horspool Algorithm
 
 This example uses gradle, Kotlin 1.4.21 and target JRE11. 
 
-The text for this code is given here https://rajeevkuruganti.com/ 
+The text for this code is given here https://rajeevkuruganti.com/boyer-moore-horspool-algorithm/
 
 
 
