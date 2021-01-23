@@ -16,11 +16,19 @@ class HorspoolTest() {
     }
 
     @Test
-    fun `happy path`() {
+    fun `Happy path`() {
         val source = "Test Tooth String. Molar teeth are growing."
         val pattern = "Tooth"
         val returnValue = horspool.boyerMooreHorspoolSearch(source, pattern)
         assert(returnValue == 5)
+    }
+
+    @Test
+    fun `Phrase search`() {
+        val source = "The cow jumped over the moon."
+        val pattern = "jumped over"
+        val returnValue = horspool.boyerMooreHorspoolSearch(source, pattern)
+        assert(returnValue == 8)
     }
 
     @Test
@@ -42,9 +50,6 @@ class HorspoolTest() {
         }
         assert(resultArray.size == 2)
     }
-
-
-
 
 // Test not hpapy path
     @Test
