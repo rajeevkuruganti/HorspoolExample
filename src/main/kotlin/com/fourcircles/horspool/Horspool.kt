@@ -2,7 +2,6 @@ package com.fourcircles.horspool
 
 class Horspool {
 
-
     fun boyerMooreHorspoolSearch(source: String, pattern: String): Int {
 
         val pattChar = pattern.toCharArray()

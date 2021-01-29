@@ -1,5 +1,6 @@
 package com.fourcircles.horspool
 
+import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 
@@ -48,7 +49,8 @@ class HorspoolTest() {
                 break
             }
         }
-        assert(resultArray.size == 2)
+        assertTrue(resultArray[1]==25)
+        assertTrue(resultArray.size == 2)
     }
 
 // Test not hpapy path
