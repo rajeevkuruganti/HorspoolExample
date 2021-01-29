@@ -12,7 +12,7 @@ This example uses gradle, Kotlin 1.4.21 and target JRE11. I have developed it us
 
 The function which finds the pattern in the source text is in Horspool.kt and the function is executed in unit tests with different use cases. 
 
-You can download/clone this repo and use it how you please. I am grateful if you acknowledge you got if from me, (Rajeev Kuruganti.
+You can download/clone this repo and use it how you please. I am grateful if you acknowledge you got if from me, Rajeev Kuruganti.
 
 
 **Use Cases**
